@@ -5,8 +5,8 @@
 
 RULES:
 
-1. You are only allowed to push nonnegative numbers in buffer." << std::endl;
-2. Execution of operations goes from left to right:\
+1. You are only allowed to push nonnegative numbers in buffer.
+2. Execution of operations goes from left to right.
 Example: 123\*2/4 means (123*2)/4
 3. You can reference result of previous computation: $N where N is number.
 For example, $2 means result of 2-st computation.

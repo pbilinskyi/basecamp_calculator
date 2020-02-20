@@ -71,7 +71,7 @@ int Calc::calculate(std::string& str){
 }
 
 void Calc::printHistory() const noexcept{
-	std::cout << "history = ";
-	for (size_t i = 0; i < SIZE; ++i) std::cout << get(i) << " ";
+	//std::cout << "history = ";
+	//for (size_t i = 0; i < SIZE; ++i) std::cout << get(i) << " ";
 	std::cout << std::endl;
 }
